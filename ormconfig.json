@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5452,
+  "username": "root",
+  "password": "secret",
+  "database": "sampleDb",
+  "entities": ["src/domain/entity/**/*.ts"],
+  "synchronize": true
+}
